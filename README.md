@@ -131,33 +131,33 @@
 GowinUACGit/
 ├── README.md                             # 本文件：项目概览与快速上手
 ├── docs/                                 # 详细文档
-│   ├── picture/                          #   文档插图（系统框图、测试截图等）
-│   ├── UAC_HID_DFU_Doc_V1.0_CN.html     #   中文技术参考手册 (HTML)
-│   ├── UAC_HID_DFU_Doc_V1.0_EN.html     #   英文技术参考手册 (HTML)
-│   ├── UAC_HIFI+HID+DFU_用户指导手册.pdf  #   中文用户指导手册 (PDF)
-│   └── UAC_HIFI+HID+DFU_User Guide.pdf   #   英文用户指导手册 (PDF)
+│   ├── picture/                          # 文档插图（系统框图、测试截图等）
+│   ├── UAC_HID_DFU_Doc_V1.0_CN.html      # 中文技术参考手册 (HTML)
+│   ├── UAC_HID_DFU_Doc_V1.0_EN.html      # 英文技术参考手册 (HTML)
+│   ├── UAC_HIFI+HID+DFU_用户指导手册.pdf  # 中文用户指导手册 (PDF)
+│   └── UAC_HIFI+HID+DFU_User Guide.pdf   # 英文用户指导手册 (PDF)
 ├── prj/                                  # FPGA 工程
 │   └── GW5A25_UAC_HIFI+HID+DFU_V1.0/
 │       ├── src/
-│       │   ├── rtl/                      #   RTL 源码 (SystemVerilog)
-│       │   │   ├── TOP.sv                #     顶层模块
-│       │   │   ├── USB_EP0_ctrl.sv       #     EP0 类请求解析
-│       │   │   ├── uac/                  #     UAC 音频子系统
-│       │   │   ├── usb_endpoint/         #     USB 端点管理 & 缓冲区
-│       │   │   ├── usb_des/              #     USB 描述符 ROM
-│       │   │   └── spi_flash_controller/ #     SPI Flash 控制器 (DFU)
-│       │   ├── ip/                       #   Gowin IP 核 (PLL/PHY/Controller)
-│       │   ├── include/                  #   全局宏定义 & 接口定义
-│       │   └── constrs/                  #   物理约束 & 时序约束
+│       │   ├── rtl/                      # RTL 源码 (SystemVerilog)
+│       │   │   ├── TOP.sv                # 顶层模块
+│       │   │   ├── USB_EP0_ctrl.sv       # EP0 类请求解析
+│       │   │   ├── uac/                  # UAC 音频子系统
+│       │   │   ├── usb_endpoint/         # USB 端点管理 & 缓冲区
+│       │   │   ├── usb_des/              # USB 描述符 ROM
+│       │   │   └── spi_flash_controller/ # SPI Flash 控制器 (DFU)
+│       │   ├── ip/                       # Gowin IP 核 (PLL/PHY/Controller)
+│       │   ├── include/                  # 全局宏定义 & 接口定义
+│       │   └── constrs/                  # 物理约束 & 时序约束
 │       └── impl/                         # 综合 / PnR 生成产物 (已 gitignore)
 └── tools/                                # 测试工具
-    ├── dfu-util.exe                      #   DFU 命令行工具
-    ├── libusb-1.0.dll                    #   USB 驱动库
-    └── DFU_bin/                          #   预编译固件
-        ├── 5A25_HIFI+HID+DFU_V1.0.bin   #     全功能固件 (2CH)
-        ├── 5A25_HIFIonly_V1.0.bin       #     纯音频固件
-        ├── mode_2CN_V1.4.0.bin          #     2通道 DFU 固件
-        └── mode_8CN_V1.4.0.bin          #     8通道 DFU 固件
+    ├── dfu-util.exe                      # DFU 命令行工具
+    ├── libusb-1.0.dll                    # USB 驱动库
+    └── DFU_bin/                          # 预编译固件
+        ├── 5A25_HIFI+HID+DFU_V1.0.bin    # 全功能固件 (2CH)
+        ├── 5A25_HIFIonly_V1.0.bin        # 纯音频固件
+        ├── mode_2CN_V1.4.0.bin           # 2通道 DFU 固件
+        └── mode_8CN_V1.4.0.bin           # 8通道 DFU 固件
 ```
 
 ### 9. ⚠️ 硬件设计重要提示
@@ -320,33 +320,33 @@ For detailed verification steps, refer to the [HTML Technical Reference](./docs/
 GowinUACGit/
 ├── README.md                             # This file: overview & quick start
 ├── docs/                                 # Detailed documentation
-│   ├── picture/                          #   Documentation images (diagrams, test screenshots)
-│   ├── UAC_HID_DFU_Doc_V1.0_CN.html     #   Technical Reference Manual (Chinese)
-│   ├── UAC_HID_DFU_Doc_V1.0_EN.html     #   Technical Reference Manual (English)
-│   ├── UAC_HIFI+HID+DFU_用户指导手册.pdf  #   User Guide (Chinese PDF)
-│   └── UAC_HIFI+HID+DFU_User Guide.pdf   #   User Guide (English PDF)
+│   ├── picture/                          # Documentation images (diagrams, test screenshots)
+│   ├── UAC_HID_DFU_Doc_V1.0_CN.html      # Technical Reference Manual (Chinese)
+│   ├── UAC_HID_DFU_Doc_V1.0_EN.html      # Technical Reference Manual (English)
+│   ├── UAC_HIFI+HID+DFU_用户指导手册.pdf  # User Guide (Chinese PDF)
+│   └── UAC_HIFI+HID+DFU_User Guide.pdf   # User Guide (English PDF)
 ├── prj/                                  # FPGA project
 │   └── GW5A25_UAC_HIFI+HID+DFU_V1.0/
 │       ├── src/
-│       │   ├── rtl/                      #   RTL source (SystemVerilog)
-│       │   │   ├── TOP.sv                #     Top-level module
-│       │   │   ├── USB_EP0_ctrl.sv       #     EP0 class-specific request parser
-│       │   │   ├── uac/                  #     UAC audio subsystem
-│       │   │   ├── usb_endpoint/         #     USB endpoint manager & buffers
-│       │   │   ├── usb_des/              #     USB descriptor ROM
-│       │   │   └── spi_flash_controller/ #     SPI Flash controller (DFU)
-│       │   ├── ip/                       #   Gowin IP cores (PLL/PHY/Controller)
-│       │   ├── include/                  #   Global macros & interface definitions
-│       │   └── constrs/                  #   Physical & timing constraints
+│       │   ├── rtl/                      # RTL source (SystemVerilog)
+│       │   │   ├── TOP.sv                # Top-level module
+│       │   │   ├── USB_EP0_ctrl.sv       # EP0 class-specific request parser
+│       │   │   ├── uac/                  # UAC audio subsystem
+│       │   │   ├── usb_endpoint/         # USB endpoint manager & buffers
+│       │   │   ├── usb_des/              # USB descriptor ROM
+│       │   │   └── spi_flash_controller/ # SPI Flash controller (DFU)
+│       │   ├── ip/                       # Gowin IP cores (PLL/PHY/Controller)
+│       │   ├── include/                  # Global macros & interface definitions
+│       │   └── constrs/                  # Physical & timing constraints
 │       └── impl/                         # Synthesis / PnR artifacts (gitignored)
 └── tools/                                # Test utilities
-    ├── dfu-util.exe                      #   DFU CLI tool
-    ├── libusb-1.0.dll                    #   USB driver library
-    └── DFU_bin/                          #   Prebuilt firmware binaries
-        ├── 5A25_HIFI+HID+DFU_V1.0.bin   #     Full-featured (2CH)
-        ├── 5A25_HIFIonly_V1.0.bin       #     Audio-only
-        ├── mode_2CN_V1.4.0.bin          #     2-channel DFU firmware
-        └── mode_8CN_V1.4.0.bin          #     8-channel DFU firmware
+    ├── dfu-util.exe                      # DFU CLI tool
+    ├── libusb-1.0.dll                    # USB driver library
+    └── DFU_bin/                          # Prebuilt firmware binaries
+        ├── 5A25_HIFI+HID+DFU_V1.0.bin    # Full-featured (2CH)
+        ├── 5A25_HIFIonly_V1.0.bin        # Audio-only
+        ├── mode_2CN_V1.4.0.bin           # 2-channel DFU firmware
+        └── mode_8CN_V1.4.0.bin           # 8-channel DFU firmware
 ```
 
 ### 9. ⚠️ Important Hardware Design Notes
