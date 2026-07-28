@@ -1,0 +1,35 @@
+# ============================================================
+# Gowin FPGA Project .gitignore
+# ============================================================
+
+# --- Synthesis / PnR / Implementation artifacts ---
+prj/**/impl/
+
+# --- IP Generator temp directories ---
+**/ip/**/temp/
+
+# --- IP Generator temporary files ---
+*_tmp.v
+*_mod_tmp.v
+
+# --- Gowin log files ---
+*.log
+
+# --- OS generated files ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Editor backup files ---
+*~
+*.swp
+*.bak
+*.bkp
+
+# --- Gowin IDE user-specific settings ---
+*.gprj.user
+
+# --- Archive files (keep source only, not archived packages) ---
+*.rar
+*.zip
+*.tar.gz
