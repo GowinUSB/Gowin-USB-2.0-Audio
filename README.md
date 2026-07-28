@@ -54,7 +54,7 @@
 └──────────────────────────────────────────────────────────────────────┘
 ```
 
-![功能框图](./docs/picture/Functional_diagram.png)
+![功能框图](./docs/picture/functional_diagram.png)
 
 ### 4. 工作模式
 
@@ -236,7 +236,7 @@ This project implements a **USB 2.0 High-Speed composite device** reference desi
 └──────────────────────────────────────────────────────────────────────┘
 ```
 
-![Functional Diagram](./docs/picture/Functional_diagram.png)
+![Functional Diagram](./docs/picture/functional_diagram.png)
 
 ### 4. Working Modes
 
