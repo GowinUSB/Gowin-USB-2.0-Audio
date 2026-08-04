@@ -373,6 +373,17 @@ For detailed guidance, see: [Gowin USB 2.0 SoftPHY Device Peripheral Circuit Des
 | [Gowin USB 2.0 SoftPHY IP User Guide](https://www.gowinsemi.com/en/support/ip_detail/98/) | USB PHY IP configuration & peripheral circuit design |
 | [Gowin USB 2.0 Device Controller IP User Guide](https://www.gowinsemi.com) | Device Controller IP interface & protocol reference |
 
+### 11. License
+
+This reference design and its source code are provided under a mixed licensing model. 
+
+* The project-specific custom RTL code is licensed under the MIT License.
+* **Gowin IP cores, EDA generated files, and existing proprietary files remain subject to their respective license terms and are NOT open-source.**
+
+Please see the following files for detailed terms:
+* [LICENSE.md](LICENSE.md) - For the license governing the project-specific RTL.
+* [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) - For notices and terms regarding Gowin IP and third-party code.
+
 ---
 
-> *Version: V1.0 | Date: 2026-07-27 | Device: GW5A-25 | Board: DK_START_GW5A-LV25UG324_V2.0*
+> *Version: V1.1 | Date: 2026-08-04 | Device: GW5A-25 | Board: DK_START_GW5A-LV25UG324_V2.0*
